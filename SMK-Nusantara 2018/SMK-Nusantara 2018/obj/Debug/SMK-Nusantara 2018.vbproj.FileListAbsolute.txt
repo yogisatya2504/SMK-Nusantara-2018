@@ -1,0 +1,17 @@
+C:\Users\Yogi\Documents\Project VB.net\SMK-Nusantara 2018\SMK-Nusantara 2018\bin\Debug\SMK-Nusantara 2018.exe.config
+C:\Users\Yogi\Documents\Project VB.net\SMK-Nusantara 2018\SMK-Nusantara 2018\bin\Debug\SMK-Nusantara 2018.exe
+C:\Users\Yogi\Documents\Project VB.net\SMK-Nusantara 2018\SMK-Nusantara 2018\bin\Debug\SMK-Nusantara 2018.pdb
+C:\Users\Yogi\Documents\Project VB.net\SMK-Nusantara 2018\SMK-Nusantara 2018\bin\Debug\SMK-Nusantara 2018.xml
+C:\Users\Yogi\Documents\Project VB.net\SMK-Nusantara 2018\SMK-Nusantara 2018\obj\Debug\SMK-Nusantara 2018.vbprojResolveAssemblyReference.cache
+C:\Users\Yogi\Documents\Project VB.net\SMK-Nusantara 2018\SMK-Nusantara 2018\obj\Debug\SMK_Nusantara_2018.frmeditprofile.resources
+C:\Users\Yogi\Documents\Project VB.net\SMK-Nusantara 2018\SMK-Nusantara 2018\obj\Debug\SMK_Nusantara_2018.frmlogin.resources
+C:\Users\Yogi\Documents\Project VB.net\SMK-Nusantara 2018\SMK-Nusantara 2018\obj\Debug\SMK_Nusantara_2018.frmnavigasiadmin.resources
+C:\Users\Yogi\Documents\Project VB.net\SMK-Nusantara 2018\SMK-Nusantara 2018\obj\Debug\SMK_Nusantara_2018.frmnavigasiguru.resources
+C:\Users\Yogi\Documents\Project VB.net\SMK-Nusantara 2018\SMK-Nusantara 2018\obj\Debug\SMK_Nusantara_2018.frmnavigasimurid.resources
+C:\Users\Yogi\Documents\Project VB.net\SMK-Nusantara 2018\SMK-Nusantara 2018\obj\Debug\SMK_Nusantara_2018.frmubahpwd.resources
+C:\Users\Yogi\Documents\Project VB.net\SMK-Nusantara 2018\SMK-Nusantara 2018\obj\Debug\SMK_Nusantara_2018.Resources.resources
+C:\Users\Yogi\Documents\Project VB.net\SMK-Nusantara 2018\SMK-Nusantara 2018\obj\Debug\SMK-Nusantara 2018.vbproj.GenerateResource.Cache
+C:\Users\Yogi\Documents\Project VB.net\SMK-Nusantara 2018\SMK-Nusantara 2018\obj\Debug\SMK-Nusantara 2018.vbproj.CoreCompileInputs.cache
+C:\Users\Yogi\Documents\Project VB.net\SMK-Nusantara 2018\SMK-Nusantara 2018\obj\Debug\SMK-Nusantara 2018.exe
+C:\Users\Yogi\Documents\Project VB.net\SMK-Nusantara 2018\SMK-Nusantara 2018\obj\Debug\SMK-Nusantara 2018.xml
+C:\Users\Yogi\Documents\Project VB.net\SMK-Nusantara 2018\SMK-Nusantara 2018\obj\Debug\SMK-Nusantara 2018.pdb
