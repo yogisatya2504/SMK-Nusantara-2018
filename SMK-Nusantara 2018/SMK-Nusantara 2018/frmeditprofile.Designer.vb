@@ -35,6 +35,7 @@ Partial Class frmeditprofile
         Me.btsave = New System.Windows.Forms.Button()
         Me.btcancel = New System.Windows.Forms.Button()
         Me.btubahpwd = New System.Windows.Forms.Button()
+        Me.btupimage = New System.Windows.Forms.Button()
         CType(Me.pb, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -60,7 +61,7 @@ Partial Class frmeditprofile
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(12, 282)
+        Me.Label2.Location = New System.Drawing.Point(12, 322)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(18, 13)
         Me.Label2.TabIndex = 2
@@ -68,14 +69,14 @@ Partial Class frmeditprofile
         '
         'tbid
         '
-        Me.tbid.Location = New System.Drawing.Point(107, 279)
+        Me.tbid.Location = New System.Drawing.Point(107, 319)
         Me.tbid.Name = "tbid"
         Me.tbid.Size = New System.Drawing.Size(192, 20)
         Me.tbid.TabIndex = 0
         '
         'tbname
         '
-        Me.tbname.Location = New System.Drawing.Point(107, 305)
+        Me.tbname.Location = New System.Drawing.Point(107, 345)
         Me.tbname.MaxLength = 20
         Me.tbname.Name = "tbname"
         Me.tbname.Size = New System.Drawing.Size(192, 20)
@@ -84,7 +85,7 @@ Partial Class frmeditprofile
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(12, 308)
+        Me.Label3.Location = New System.Drawing.Point(12, 348)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(35, 13)
         Me.Label3.TabIndex = 4
@@ -92,7 +93,7 @@ Partial Class frmeditprofile
         '
         'tbnohp
         '
-        Me.tbnohp.Location = New System.Drawing.Point(107, 331)
+        Me.tbnohp.Location = New System.Drawing.Point(107, 371)
         Me.tbnohp.MaxLength = 12
         Me.tbnohp.Name = "tbnohp"
         Me.tbnohp.Size = New System.Drawing.Size(192, 20)
@@ -101,7 +102,7 @@ Partial Class frmeditprofile
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(12, 334)
+        Me.Label4.Location = New System.Drawing.Point(12, 374)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(78, 13)
         Me.Label4.TabIndex = 6
@@ -109,7 +110,7 @@ Partial Class frmeditprofile
         '
         'tbalamat
         '
-        Me.tbalamat.Location = New System.Drawing.Point(107, 357)
+        Me.tbalamat.Location = New System.Drawing.Point(107, 397)
         Me.tbalamat.Multiline = True
         Me.tbalamat.Name = "tbalamat"
         Me.tbalamat.Size = New System.Drawing.Size(192, 66)
@@ -118,7 +119,7 @@ Partial Class frmeditprofile
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(12, 360)
+        Me.Label5.Location = New System.Drawing.Point(12, 400)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(45, 13)
         Me.Label5.TabIndex = 8
@@ -126,7 +127,7 @@ Partial Class frmeditprofile
         '
         'btsave
         '
-        Me.btsave.Location = New System.Drawing.Point(84, 431)
+        Me.btsave.Location = New System.Drawing.Point(84, 471)
         Me.btsave.Name = "btsave"
         Me.btsave.Size = New System.Drawing.Size(75, 23)
         Me.btsave.TabIndex = 4
@@ -135,7 +136,7 @@ Partial Class frmeditprofile
         '
         'btcancel
         '
-        Me.btcancel.Location = New System.Drawing.Point(165, 431)
+        Me.btcancel.Location = New System.Drawing.Point(165, 471)
         Me.btcancel.Name = "btcancel"
         Me.btcancel.Size = New System.Drawing.Size(75, 23)
         Me.btcancel.TabIndex = 5
@@ -144,18 +145,28 @@ Partial Class frmeditprofile
         '
         'btubahpwd
         '
-        Me.btubahpwd.Location = New System.Drawing.Point(108, 239)
+        Me.btubahpwd.Location = New System.Drawing.Point(108, 279)
         Me.btubahpwd.Name = "btubahpwd"
         Me.btubahpwd.Size = New System.Drawing.Size(117, 23)
         Me.btubahpwd.TabIndex = 9
         Me.btubahpwd.Text = "Change Password"
         Me.btubahpwd.UseVisualStyleBackColor = True
         '
+        'btupimage
+        '
+        Me.btupimage.Location = New System.Drawing.Point(165, 233)
+        Me.btupimage.Name = "btupimage"
+        Me.btupimage.Size = New System.Drawing.Size(94, 25)
+        Me.btupimage.TabIndex = 10
+        Me.btupimage.Text = "Upload Image"
+        Me.btupimage.UseVisualStyleBackColor = True
+        '
         'frmeditprofile
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(323, 466)
+        Me.ClientSize = New System.Drawing.Size(323, 503)
+        Me.Controls.Add(Me.btupimage)
         Me.Controls.Add(Me.btubahpwd)
         Me.Controls.Add(Me.btcancel)
         Me.Controls.Add(Me.btsave)
@@ -191,4 +202,5 @@ Partial Class frmeditprofile
     Friend WithEvents btsave As Button
     Friend WithEvents btcancel As Button
     Friend WithEvents btubahpwd As Button
+    Friend WithEvents btupimage As Button
 End Class

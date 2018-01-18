@@ -23,4 +23,17 @@ Module modulkoneksi
 
         Return dt
     End Function
+
+    ' Fungsi ini bertugas untuk simpan, update, dan delete
+    Function simpandb(s As String)
+        Try
+            Using conn As New SqlConnection(str)
+                conn.Open()
+                Dim cmd As New SqlCommand(s, conn)
+                cmd.ExecuteNonQuery()
+            End Using
+        Catch ex As Exception
+            MsgBox(ex.ToString)
+        End Try
+    End Function
 End Module

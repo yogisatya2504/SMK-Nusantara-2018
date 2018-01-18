@@ -40,4 +40,10 @@
         Me.Hide()
         frmeditprofile.Show()
     End Sub
+
+    Private Sub btlogout_Click(sender As Object, e As EventArgs) Handles btlogout.Click
+        If MsgBox("Logout?", MsgBoxStyle.Question, "") = MsgBoxResult.Ok Then
+            Me.Close()
+        End If
+    End Sub
 End Class
